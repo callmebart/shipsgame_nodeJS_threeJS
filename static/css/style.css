@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Titan One';
+}
+#root{
+    position: absolute;
+}
+#MainMenu{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(186,225,255);
+}
+#LogInBtn{
+    position: absolute;
+    top: 62%;
+    left: 40%;
+    width: 124px;
+}
+#loggg{
+    position: absolute;
+    display: none;
+    top: 2%;
+    left: 28%;
+   
+}
+#loggg input{
+    width:42vw;
+    height:5vh;
+    left:10px;
+    border-radius: 5px 5px 5px 5px;
+}
+#PlayBtn:disabled{
+    background-color: #ffb3ba;
+}
+#LogOutBtn{
+    position: absolute;
+    left: 40%;
+    top: 80%;
+}
+#PlayBtn{
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    width: 124px;
+}
+.button {
+    background-color: #ff6775;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Titan One';
+}
+#menu{
+    position: absolute;
+    border: 3px solid #ff6775;
+    width: 40vw;
+    height: 45vh;
+    border-radius: 10%;
+    left:30%;
+    top:20%;
+  
+}
+h1{
+    color:#ff6775;
+    font-size: 100px;
+    font-family: 'Titan One';
+    position: absolute;
+    left:25%;
+}
+.oczekiwanie{
+    position:absolute;
+    left:45%;
+    top:70%;
+    font-family: 'Titan One';
+}
+.loader {
+    position:absolute;
+    left:45%;
+    top:75%;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #ff6775;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    z-index: 0;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  #ReadyBtn{
+      display: none;
+      position: absolute;
+      background-color: #c4c4cf;
+  }
+  #strzalka1{
+    display: none;
+    width:150px;
+    height:150px;
+    position:absolute;
+    transform: rotate(45deg); /* Equal to rotateZ(45deg) */
+    top:80px;
+    left:105px;
+}
