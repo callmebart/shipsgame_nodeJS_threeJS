@@ -1,5 +1,5 @@
 ﻿### shipsgame_nodeJS_threeJS
- 
+High school project
  run: node server 
 <br/>
 
